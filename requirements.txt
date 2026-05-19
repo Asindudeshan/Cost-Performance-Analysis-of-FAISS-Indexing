@@ -1,0 +1,9 @@
+faiss-cpu
+streamlit
+psutil
+torch
+transformers
+pillow
+opencv-python
+speechrecognition
+numpy
