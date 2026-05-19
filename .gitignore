@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# FAISS Indexes and Databases
+*.faiss
+*.db
+
+# Data & Large Media
+images/
+real_images/
+*.zip
+*.mp4
+*.wav
+
+# Logs
+*.log
+*.log.*
+
+# OS files
+.DS_Store
+Thumbs.db
