@@ -247,7 +247,7 @@ with left_col:
     st.subheader("💡 Research Addition")
     enable_hybrid = st.toggle("Enable Hybrid Resource-Aware Search", value=False)
     if enable_hybrid:
-        st.info("🤖 **Auto-Routing Active:** System automatically routes traffic if RAM > 85%")
+        st.info("🤖 **Auto-Routing Active:** System automatically balances retrieval speed and memory footprint based on real-time resource availability.")
     ram_threshold = 85.0
         
     st.markdown("---")
@@ -315,10 +315,10 @@ with right_col:
             st.progress(current_ram / 100.0)
             
             if current_ram > ram_threshold:
-                st.warning(f"⚠️ **Memory Critical (>{ram_threshold}%).** Routing query to **IVF Index** to save memory.")
+                st.warning("⚠️ **Memory Critical.** Routing query to **IVF Index** to save memory.")
                 run_hnsw = False
             else:
-                st.success(f"✅ **Memory Healthy (<{ram_threshold}%).** Routing query to **HNSW Index** for maximum accuracy.")
+                st.success("✅ **Memory Healthy.** Routing query to **HNSW Index** for maximum accuracy.")
                 run_ivf = False
         else:
             st.subheader("📊 FAISS Cost-Performance Comparison")
