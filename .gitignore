@@ -21,3 +21,9 @@ real_images/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Environments & Cache
+.env
+.venv/
+.venv-1/
+.pytest_cache/

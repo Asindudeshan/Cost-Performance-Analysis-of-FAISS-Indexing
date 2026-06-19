@@ -7,3 +7,7 @@ pillow
 opencv-python
 speechrecognition
 numpy
+discord.py
+python-dotenv
+datasets
+accelerate

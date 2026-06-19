@@ -1,3 +1,6 @@
+ python -c "import sklearn; print(sklearn.__version__)"
+1.8.0
+PS C:\Users\Asindu Deshan\Desktop\galle> 
 # Cost-Performance Analysis of FAISS Indexing (HNSW vs IVF) & Resource-Aware Hybrid Search
 
 An academic research framework and benchmark dashboard designed to evaluate the trade-off between search latency and memory footprint in FAISS vector indexes (HNSW vs. IVF) for multi-modal queries, featuring a novel **Resource-Aware Hybrid Routing Algorithm**.
